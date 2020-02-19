@@ -1,4 +1,5 @@
-import * as React from "react";
+// import * as React from "react";
+import React from 'react'
 import * as _ from "lodash";
 import { identityT } from '../modules/test2';
 let output1: GenericIdentityFn = identityT

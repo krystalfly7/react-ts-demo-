@@ -30,5 +30,4 @@ console.log(myGenericNumber)
 let myGenericNumber2 = new GenericNumber<string>();
 myGenericNumber2.zeroValue = 'ss';
 myGenericNumber2.add = function(x, y) { return x + y; };
-console.log(myGenericNumber2)
 console.log(myGenericNumber2.add(myGenericNumber2.zeroValue, "test"));
